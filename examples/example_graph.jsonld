@@ -16,7 +16,7 @@
     },
     "@graph": [
         {
-            "uco-core:description": "MSAB is a global leader in digital forensic technology for mobile device examination and analysis. https://www.msab.com/about-us/",
+            "uco-core:description": "https://www.msab.com/about-us/",
             "@id": "kb:msab-org-1",
             "@type": "uco-identity:Organization",
             "uco-core:name": "MSAB"
@@ -28,7 +28,7 @@
                 "@id": "kb:msab-org-1"
             },
             "uco-core:name": "XRY",
-            "uco-tool:description": "XRY recovers data fast, in a secure, efficient, and lawful manner. https://www.msab.com/product/xry-extract/",
+            "uco-tool:description": "https://www.msab.com/product/xry-extract/",
             "@id": "kb:xry-tool-1",
             "@type": "uco-tool:Tool"
         },
