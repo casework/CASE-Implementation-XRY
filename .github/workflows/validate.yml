@@ -18,6 +18,13 @@ jobs:
         with:
           python-version: 3.9
 
+      # Confirm the JSON files have been properly formatted based on the rules defined in the 
+      # pre-commit configuration file (.pre-commit-config.yaml)
+      - name: Pre-commit Checks
+        run: |
+          pip -q install pre-commit
+          pre-commit run --all-files
+
       # Run the CASE validation job to confirm all of the examples in examples/ are valid CASE.
       # Note, this only runs against files with the extension "jsonld"
       - name: CASE Export Validation
@@ -26,4 +33,3 @@ jobs:
           case-path: ./examples/
           case-version: "case-0.6.0"
           extension-filter: "jsonld"
-          

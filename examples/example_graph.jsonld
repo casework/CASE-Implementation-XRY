@@ -1,35 +1,35 @@
 {
     "@context": {
-        "uco-tool": "https://ontology.unifiedcyberontology.org/uco/tool/", 
-        "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/", 
-        "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/", 
-        "case-investigation": "https://ontology.caseontology.org/case/investigation/", 
-        "uco-identity": "https://ontology.unifiedcyberontology.org/uco/identity/", 
-        "uco-location": "https://ontology.unifiedcyberontology.org/uco/location/", 
-        "kb": "http://example.org/kb/", 
-        "uco-vocabulary": "https://ontology.unifiedcyberontology.org/uco/vocabulary/", 
-        "uco-types": "https://ontology.unifiedcyberontology.org/uco/types/", 
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
-        "xsd": "http://www.w3.org/2001/XMLSchema#", 
+        "uco-tool": "https://ontology.unifiedcyberontology.org/uco/tool/",
+        "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+        "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
+        "case-investigation": "https://ontology.caseontology.org/case/investigation/",
+        "uco-identity": "https://ontology.unifiedcyberontology.org/uco/identity/",
+        "uco-location": "https://ontology.unifiedcyberontology.org/uco/location/",
+        "kb": "http://example.org/kb/",
+        "uco-vocabulary": "https://ontology.unifiedcyberontology.org/uco/vocabulary/",
+        "uco-types": "https://ontology.unifiedcyberontology.org/uco/types/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/"
-    }, 
+    },
     "@graph": [
         {
-            "uco-core:description": "MSAB is a global leader in digital forensic technology for mobile device examination and analysis. https://www.msab.com/about-us/", 
-            "@id": "kb:msab-org-1", 
-            "@type": "uco-identity:Organization", 
+            "uco-core:description": "MSAB is a global leader in digital forensic technology for mobile device examination and analysis. https://www.msab.com/about-us/",
+            "@id": "kb:msab-org-1",
+            "@type": "uco-identity:Organization",
             "uco-core:name": "MSAB"
-        }, 
+        },
         {
-            "uco-tool:version": "10.0.0", 
-            "uco-tool:toolType": "Extraction", 
+            "uco-tool:version": "10.0.0",
+            "uco-tool:toolType": "Extraction",
             "uco-tool:creator": {
                 "@id": "kb:msab-org-1"
-            }, 
-            "uco-core:name": "XRY", 
-            "uco-tool:description": "XRY recovers data fast, in a secure, efficient, and lawful manner. https://www.msab.com/product/xry-extract/", 
-            "@id": "kb:xry-tool-1", 
+            },
+            "uco-core:name": "XRY",
+            "uco-tool:description": "XRY recovers data fast, in a secure, efficient, and lawful manner. https://www.msab.com/product/xry-extract/",
+            "@id": "kb:xry-tool-1",
             "@type": "uco-tool:Tool"
         },
         {
@@ -37,16 +37,16 @@
                 {
                     "@id": "kb:xry-tool-1"
                 }
-            ], 
+            ],
             "uco-action:startTime": {
-                "@type": "xsd:dateTime", 
+                "@type": "xsd:dateTime",
                 "@value": "2022-04-13T12:24:00.424034Z"
             },
             "uco-action:endTime": {
-                "@type": "xsd:dateTime", 
+                "@type": "xsd:dateTime",
                 "@value": "2022-04-13T12:24:04.458020Z"
-            }, 
-            "@id": "kb:investigative-action-1", 
+            },
+            "@id": "kb:investigative-action-1",
             "@type": "case-investigation:InvestigativeAction"
         }
     ]
