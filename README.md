@@ -1,4 +1,5 @@
 # CASE Implementation XRY
+[![CASE Examples](https://github.com/casework/CASE-Implementation-XRY/actions/workflows/validate.yml/badge.svg)](https://github.com/casework/CASE-Implementation-XRY/actions/workflows/validate.yml/badge.svg)
 
 ### Overview
 
