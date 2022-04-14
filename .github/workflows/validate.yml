@@ -25,8 +25,8 @@ jobs:
           pip -q install pre-commit
           pre-commit run --all-files
 
-      # Run the CASE validation job to confirm all of the examples in examples/ are valid CASE.
-      # Note, this only runs against files with the extension "jsonld"
+      # Run the CASE validation job to confirm all of the examples in examples/ are conformant
+      # CASE. Note, this only runs against files with the extension "jsonld"
       - name: CASE Export Validation
         uses: kchason/case-validation-action@v2.1
         with:
