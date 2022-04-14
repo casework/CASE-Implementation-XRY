@@ -1,0 +1,35 @@
+name: CASE Validation
+
+on: [ push ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Get the code from the repository to be packaged
+      - name: Get Repo
+        uses: actions/checkout@v2
+
+      # Setup the Python environment
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      # Confirm the JSON files have been properly formatted based on the rules defined in the 
+      # pre-commit configuration file (.pre-commit-config.yaml)
+      - name: Pre-commit Checks
+        run: |
+          pip -q install pre-commit
+          pre-commit run --all-files
+
+      # Run the CASE validation job to confirm all of the examples in examples/ are conformant
+      # CASE. Note, this only runs against files with the extension "jsonld"
+      - name: CASE Export Validation
+        uses: kchason/case-validation-action@v2.1
+        with:
+          case-path: ./examples/
+          case-version: "case-0.6.0"
+          extension-filter: "jsonld"

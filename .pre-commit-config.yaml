@@ -1,0 +1,15 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+    -   id: check-json
+        types: [text]
+        files: \.(json|jsonld)$
+    -   id: pretty-format-json
+        types: [text]
+        files: \.(json|jsonld)$
+        args:
+            - --autofix
+            - --indent=4
+            - --no-ensure-ascii
+            - --no-sort-keys
