@@ -1,5 +1,6 @@
 # CASE Implementation XRY
 [![CASE Examples](https://github.com/casework/CASE-Implementation-XRY/actions/workflows/validate.yml/badge.svg)](https://github.com/casework/CASE-Implementation-XRY/actions/workflows/validate.yml/badge.svg)
+![CASE Version](https://img.shields.io/badge/CASE%20Version-1.1.0-green)
 
 ### Overview
 
