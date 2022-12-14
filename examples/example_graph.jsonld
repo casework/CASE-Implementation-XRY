@@ -28,7 +28,7 @@
                 "@id": "kb:msab-org-232af206-47dc-4119-999d-7ea5ea44fd41"
             },
             "uco-core:name": "XRY",
-            "uco-tool:description": "https://www.msab.com/product/xry-extract/",
+            "uco-core:description": "https://www.msab.com/product/xry-extract/",
             "@id": "kb:xry-tool-91b4bf27-f6d9-4745-8b64-5a8b65e2cc0d",
             "@type": "uco-tool:Tool"
         },
