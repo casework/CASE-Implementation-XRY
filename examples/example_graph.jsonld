@@ -17,7 +17,7 @@
     "@graph": [
         {
             "uco-core:description": "https://www.msab.com/about-us/",
-            "@id": "kb:msab-org-1",
+            "@id": "kb:msab-org-232af206-47dc-4119-999d-7ea5ea44fd41",
             "@type": "uco-identity:Organization",
             "uco-core:name": "MSAB"
         },
@@ -25,17 +25,17 @@
             "uco-tool:version": "10.0.0",
             "uco-tool:toolType": "Extraction",
             "uco-tool:creator": {
-                "@id": "kb:msab-org-1"
+                "@id": "kb:msab-org-232af206-47dc-4119-999d-7ea5ea44fd41"
             },
             "uco-core:name": "XRY",
-            "uco-tool:description": "https://www.msab.com/product/xry-extract/",
-            "@id": "kb:xry-tool-1",
+            "uco-core:description": "https://www.msab.com/product/xry-extract/",
+            "@id": "kb:xry-tool-91b4bf27-f6d9-4745-8b64-5a8b65e2cc0d",
             "@type": "uco-tool:Tool"
         },
         {
             "uco-action:instrument": [
                 {
-                    "@id": "kb:xry-tool-1"
+                    "@id": "kb:xry-tool-91b4bf27-f6d9-4745-8b64-5a8b65e2cc0d"
                 }
             ],
             "uco-action:startTime": {
@@ -46,7 +46,7 @@
                 "@type": "xsd:dateTime",
                 "@value": "2022-04-13T12:24:04.458020Z"
             },
-            "@id": "kb:investigative-action-1",
+            "@id": "kb:investigative-action-6f114a21-3715-46c0-9746-45a74aa344e6",
             "@type": "case-investigation:InvestigativeAction"
         }
     ]
