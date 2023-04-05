@@ -1,6 +1,6 @@
 # CASE Implementation XRY
 [![CASE Examples](https://github.com/casework/CASE-Implementation-XRY/actions/workflows/validate.yml/badge.svg)](https://github.com/casework/CASE-Implementation-XRY/actions/workflows/validate.yml/badge.svg)
-![CASE Version](https://img.shields.io/badge/CASE%20Version-1.1.0-green)
+![CASE Version](https://img.shields.io/badge/CASE%20Version-1.2.0-green)
 
 ### Overview
 
@@ -8,7 +8,7 @@ Implementation scripts and examples for converting MSAB XRY reports into CASE.
 
 ### Usage
 
-All files in the `examples/` directory with the extension `.jsonld` will automatically be validated using a GitHub Action that confirms their conformance to CASE v1.1.0. 
+All files in the `examples/` directory with the extension `.jsonld` will automatically be validated using a GitHub Action that confirms their conformance to CASE v1.2.0.
 
 ### Contributing
 
