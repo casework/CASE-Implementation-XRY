@@ -28,8 +28,8 @@ jobs:
       # Run the CASE validation job to confirm all of the examples in examples/ are conformant
       # CASE. Note, this only runs against files with the extension "jsonld"
       - name: CASE Export Validation
-        uses: kchason/case-validation-action@v2.8.0
+        uses: kchason/case-validation-action@v2.9.0
         with:
           case-path: ./examples/
-          case-version: "case-1.2.0"
+          case-version: "case-1.3.0"
           extension-filter: "jsonld"
